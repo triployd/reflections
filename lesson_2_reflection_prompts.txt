@@ -16,3 +16,14 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+
+tips:
+git diff Revised is important:
+1.修改文件
+2.git status显示什么文件修改了
+3.git diff看修改了什么地方
+4.git add文件到staging area
+5.git diff ——staged（double dash）比较repository和staging area
+6.git reset ——hard(double dash)把改过得没有add到staging area还原not reversible
+7.
