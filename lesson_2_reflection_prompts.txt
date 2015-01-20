@@ -26,4 +26,13 @@ git diff Revised is important:
 4.git add文件到staging area
 5.git diff ——staged（double dash）比较repository和staging area
 6.git reset ——hard(double dash)把改过得没有add到staging area还原not reversible
-7.
+
+7.git branch easy-mode
+git checkout easy-mode这两行就可以开始easy-mode branch了
+8.The full command Caroline types to see the visual representation of the commit history is git log --graph --oneline master coins: git log只显示一行一行并排这样更容易看
+9.git checkout -b new_branch_name：在某一个commit上做了修改并且想保存可以访问branch就这样
+
+10. merging files! if rachel add A it should contain A, but if jake deleted A then it shouldn’t contain A 使劲理解概念回忆
+11. git show commit_id：看这个commit从parent改了什么
+12. git branch -d coins只会删除label
+13. 
