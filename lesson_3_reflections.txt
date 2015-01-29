@@ -1,42 +1,43 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset136 STHeitiTC-Light;
-\f3\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+When would you want to use a remote repository rather than keeping all your work
+local?
 
-\f0\fs24 \cf0 \
-\
-\
-\
-\
+    Fill in your answer here
 
-\f1 1. git remote
-\f2 \'ac\'64\'ac\'dd\'a6\'b3\'a6\'68\'a4\'d6
-\f1 remote\
-2. git remote add origin 
-\fs28 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 https://github.com/triployd/reflections.git\
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
 
-\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \'b7\'73\'ab\'d8
-\f1  origin remote\
-3. git remote -v   v
-\f2 \'ac\'4f
-\f1 verbose
-\f2 \uc0\u32553 \u20889 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+    Fill in your answer here
 
-\f1\fs28 \cf0 \CocoaLigature0 origin	https://github.com/triployd/reflections.git (fetch)\
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
+
+
+
+
+
+1. git remote查看有多少remote
+2. git remote add origin https://github.com/triployd/reflections.git
+新建 origin remote
+3. git remote -v   v是verbose缩写
+origin	https://github.com/triployd/reflections.git (fetch)
 origin	https://github.com/triployd/reflections.git (push)
-\f2\fs24 \CocoaLigature1 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
-\cf0 4. 
-\f3\fs28 \CocoaLigature0 git push origin master
-\f2 \'a7\'e2
-\f3  origin remote 
-\f2 \'a8\'bd\'ad\'b1\'aa\'ba
-\f3 master branch push 
-\f2 \'a8\'ecgit hub\'a4\'57\'a1\'41\'a4\'40\'af\'eb\'ad\'6e\uc0\u36755 \'a4\'4a\'b1\'4b\u30721 \
+4. git push origin master把 origin remote 里面的master branch push 到git hub上，一般要输入密码
 5. 
-\f0\fs24 \CocoaLigature1 \
-}
+
