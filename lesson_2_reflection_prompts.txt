@@ -35,4 +35,10 @@ git checkout easy-mode这两行就可以开始easy-mode branch了
 10. merging files! if rachel add A it should contain A, but if jake deleted A then it shouldn’t contain A 使劲理解概念回忆
 11. git show commit_id：看这个commit从parent改了什么
 12. git branch -d coins只会删除label
-13. 
+
+13. git merge master easy-mode：把master merge 到easymode里面
+有conflict可以手动修改但是要自己思考一下。。。
+注意三个部分代表什么。第一个是head，第二个是both ancestor，第三个是master
+修改完了git status看状态，git add 修改了的文件， git commit完成。。。
+
+14. end of course
