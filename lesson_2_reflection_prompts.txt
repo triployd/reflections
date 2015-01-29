@@ -41,4 +41,4 @@ git checkout easy-mode这两行就可以开始easy-mode branch了
 注意三个部分代表什么。第一个是head，第二个是both ancestor，第三个是master
 修改完了git status看状态，git add 修改了的文件， git commit完成。。。
 
-14. end of course
+14. end of lesson2
